@@ -58,7 +58,7 @@ df['SITUACAO'] = df.apply(situacao_homologado, axis=1)
 	|acar|	4.00|	|12.35	|16.5	|abaixo|
 3. Quantos itens foram comprados acima, abaixo ou igual ao valor estimado?
 
-![This is a alt text.]("https://github.com/tuanymariiah/DSB/blob/main/imagens/q3.png?raw=true")
+![licitacao_ano](imagens/q10.png)
 
 4. Quantos itens foram comprados com valor baixo e alto
 5. **Quais são os principais bens materiais comprados pelos órgãos públicos do Rio Grande do Sul?**
