@@ -40,8 +40,26 @@ df['SITUACAO'] = df.apply(situacao_homologado, axis=1)
 # Perguntas a serem respondidas
 ---
 1. Quais itens foram comprados **acima** do valor estimado?
+
+	|DS_ITEM  |	QT_ITENS    |   VL_UNITARIO_HOMOLOGADO| VL_UNITARIO_ESTIMADO|SITUACAO|
+	| ------------- |:-------------:|:-------------:| ------------- |:-------------:|
+	|toalha	|10.00|	6.6|	6.0	|acima|
+	|toalha	|10.00|	6.6|    6.0	|acima|
+	|toalha	|10.00|	6.6|	6.0	|acima|
+	|toalha	|25.00|	6.6|	5.2	|acima|
+
 2. Quais itens foram comprados **abaixo** do valor estimado?
+
+	|DS_ITEM  |	QT_ITENS    |   VL_UNITARIO_HOMOLOGADO| VL_UNITARIO_ESTIMADO|SITUACAO|
+	| ------------- |:-------------:|:-------------:| ------------- |:-------------:|
+	|biscoito|	72.00|	|5.00	|6.5	|abaixo|
+	|biscoito|	72.00|	|3.61	|4.0	|abaixo|
+	|farinha|	4.00|	|8.58	|9.0	|abaixo|
+	|acar|	4.00|	|12.35	|16.5	|abaixo|
 3. Quantos itens foram comprados acima, abaixo ou igual ao valor estimado?
+
+![This is a alt text.]("https://github.com/tuanymariiah/DSB/blob/main/imagens/q3.png?raw=true")
+
 4. Quantos itens foram comprados com valor baixo e alto
 5. **Quais são os principais bens materiais comprados pelos órgãos públicos do Rio Grande do Sul?**
 6. **É possível identificar algum padrão nas compras? Seja por época do ano ou por tipo de órgão comprador?**
