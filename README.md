@@ -42,22 +42,21 @@ df['SITUACAO'] = df.apply(situacao_homologado, axis=1)
 1. Quais itens foram comprados **acima** do valor estimado
 
 
-	|DS_ITEM  |	QT_ITENS    |   VL_UNITARIO_HOMOLOGADO| VL_UNITARIO_ESTIMADO|SITUACAO|
-	| ------------- |:-------------:|:-------------:| ------------- |:-------------:|
-	|toalha	|10.00|	6.6|	6.0	|acima|
-	|toalha	|10.00|	6.6|    6.0	|acima|
-	|toalha	|10.00|	6.6|	6.0	|acima|
-	|toalha	|25.00|	6.6|	5.2	|acima|
+|DS_ITEM  |	QT_ITENS    |   VL_UNITARIO_HOMOLOGADO| VL_UNITARIO_ESTIMADO|SITUACAO|
+| ------------- |:-------------:|:-------------:| ------------- |:-------------:|
+|leite          |	1800.00 |	2.99	|  2.49	|   acima|
+|vassaoura      |	10.00   |	7.87	|  7.86	|   acima|
+|copo           |	4.00    |	96.00	|  95.50	|acima|
+|palha          |	20.00   |	31.00	|  30.00	|acima|
 
 2. Quais itens foram comprados **abaixo** do valor estimado?
 
-
-	|DS_ITEM  |	QT_ITENS    |   VL_UNITARIO_HOMOLOGADO| VL_UNITARIO_ESTIMADO|SITUACAO|
-	| ------------- |:-------------:|:-------------:| ------------- |:-------------:|
-	|biscoito|	72.00|	|5.00	|6.5	|abaixo|
-	|biscoito|	72.00|	|3.61	|4.0	|abaixo|
-	|farinha|	4.00|	|8.58	|9.0	|abaixo|
-	|acar|	4.00|	|12.35	|16.5	|abaixo|
+|DS_ITEM  |	QT_ITENS    |   VL_UNITARIO_HOMOLOGADO| VL_UNITARIO_ESTIMADO|SITUACAO|
+| ------------- |:-------------:|:-------------:| ------------- |:-------------:|
+|cebola	|   1200.00|	3.49|	3.50|	abaixo|
+|cenoura|	200.00|	    2.85|	2.89|	abaixo|
+|laranja|	400.00|	    1.75|	1.79|	abaixo|
+|macarro|	40.00|	    3.49|	4.00|	abaixo|
 	
 3. Quantos itens foram comprados acima, abaixo ou igual ao valor estimado?
 
