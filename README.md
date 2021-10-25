@@ -39,7 +39,8 @@ df['SITUACAO'] = df.apply(situacao_homologado, axis=1)
 ```
 # Perguntas a serem respondidas
 ---
-1. Quais itens foram comprados **acima** do valor estimado?
+1. Quais itens foram comprados **acima** do valor estimado
+
 
 	|DS_ITEM  |	QT_ITENS    |   VL_UNITARIO_HOMOLOGADO| VL_UNITARIO_ESTIMADO|SITUACAO|
 	| ------------- |:-------------:|:-------------:| ------------- |:-------------:|
@@ -49,6 +50,7 @@ df['SITUACAO'] = df.apply(situacao_homologado, axis=1)
 	|toalha	|25.00|	6.6|	5.2	|acima|
 
 2. Quais itens foram comprados **abaixo** do valor estimado?
+
 
 	|DS_ITEM  |	QT_ITENS    |   VL_UNITARIO_HOMOLOGADO| VL_UNITARIO_ESTIMADO|SITUACAO|
 	| ------------- |:-------------:|:-------------:| ------------- |:-------------:|
