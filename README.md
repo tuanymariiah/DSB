@@ -56,15 +56,39 @@ df['SITUACAO'] = df.apply(situacao_homologado, axis=1)
 	|biscoito|	72.00|	|3.61	|4.0	|abaixo|
 	|farinha|	4.00|	|8.58	|9.0	|abaixo|
 	|acar|	4.00|	|12.35	|16.5	|abaixo|
+	
 3. Quantos itens foram comprados acima, abaixo ou igual ao valor estimado?
+
+![licitacao_ano](imagens/q3.png)
+
+4. Quantos itens foram comprados com valor baixo e alto
+
+![licitacao_ano](imagens/q4.png)
+
+5. **Quais são os principais bens materiais comprados pelos órgãos públicos do Rio Grande do Sul?**
+
+![licitacao_ano](imagens/q5.png)
+
+6. **É possível identificar algum padrão nas compras? Seja por época do ano ou por tipo de órgão comprador?**
+
+![licitacao_ano](imagens/q6.png)
+
+7. Em qual ano houve mais licitação?
+
+![licitacao_ano](imagens/q7.png)
+
+8. Orgao que mais fez pedido no ano de 2016
+
+![licitacao_ano](imagens/q8.png)
+
+9. Orgao que mais fez pedido no ano de 2017
+
+![licitacao_ano](imagens/q9.png)
+
+10. Orgao que mais fez pedido no ano de 2018
 
 ![licitacao_ano](imagens/q10.png)
 
-4. Quantos itens foram comprados com valor baixo e alto
-5. **Quais são os principais bens materiais comprados pelos órgãos públicos do Rio Grande do Sul?**
-6. **É possível identificar algum padrão nas compras? Seja por época do ano ou por tipo de órgão comprador?**
-7. Em qual ano houve mais licitação?
-8. Orgao que mais fez pedido no ano de 2016
-9. Orgao que mais fez pedido no ano de 2017
-10. Orgao que mais fez pedido no ano de 2018
 11. Orgao que mais fez pedido no ano de 2019
+
+![licitacao_ano](imagens/q11.png)
