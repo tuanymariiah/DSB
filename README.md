@@ -94,3 +94,7 @@ df['SITUACAO'] = df.apply(situacao_homologado, axis=1)
 11. Orgao que mais fez pedido no ano de 2019
 
 ![q11](imagens/q11.png)
+
+12.Quais os 10 primeiros orgaos que fizeram compras de materiais acima do valor estimado no período de 2016 a 2019
+
+![q12](imagens/q12.png)
